@@ -1,0 +1,27 @@
+{
+    "name": "nguyentrannhatrang/arti-ntnt",
+    "description": "The first laravel package",
+    "authors": [
+        {
+            "name": "nhatrang",
+            "email": "trang.nguyen@whl.travel"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",    
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ntnt\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ntnt\\Commands\\ArtisanNtntServiceProvider"
+            ]
+        }
+    }
+}
